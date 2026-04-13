@@ -16,6 +16,7 @@ CREATE TABLE users (
     updated_at TIMESTAMPTZ,
     friends_count INTEGER,
     listed_count INTEGER,
+    url TEXT,
     favourites_count INTEGER,
     statuses_count INTEGER,
     protected BOOLEAN,
